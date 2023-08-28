@@ -1,0 +1,24 @@
+#cs ----------------------------------------------------------------------------
+
+ AutoIt Version: 3.3.16.1
+ Author:         myName
+
+ Script Function:
+	Template AutoIt script.
+
+#ce ----------------------------------------------------------------------------
+
+; Script Start - Add your code below here
+
+
+#include <AutoItConstants.au3>
+#include <MsgBoxConstants.au3>
+run("mon appli")
+;MouseClick($MOUSE_CLICK_LEFT, 108, 172, 1, 10) avec x=108,y=172, 1 seul click, vitesse du curseur=10
+;MouseClick($MOUSE_CLICK_LEFT, 447, 177, 1, 10)
+
+
+; Pour trouver la position du curseur, à faire itérativement.
+;sleep(5000) soit 5s le temps de déplacer le curseur sur le prochain boutton à cliquer pour obtenir la position x,y 
+;Local $aPos = MouseGetPos()
+;MsgBox($MB_SYSTEMMODAL, "Mouse x, y:", $aPos[0] & ", " & $aPos[1])
